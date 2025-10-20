@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contacto - Institucion Etnoeducativa Intercultural Eugenia Herrera Matitas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="estilos/estilos.css"/>
+</head>
+<body>
+  <div class="container py-5">
+    <h1 class="mb-4">Contacto</h1>
+    <div class="row">
+      <!-- FORMULARIO -->
+      <div class="col-md-6">
+        <form action="https://formsubmit.co/ieeugeniaherreradematitas@gmail.com" method="POST" enctype="multipart/form-data">
+          <!-- Opciones de configuración -->
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="gracias.html">
+
+          <div class="mb-3">
+            <input type="text" name="nombre" class="form-control" placeholder="Nombre completo" required />
+          </div>
+          <div class="mb-3">
+            <input type="email" name="email" class="form-control" placeholder="Correo electrónico" required />
+          </div>
+          <div class="mb-3">
+            <textarea name="mensaje" class="form-control" rows="4" placeholder="Mensaje..." required></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="archivo" class="form-label">Adjuntar archivo (PDF, Word, imagen, etc.):</label>
+            <input type="file" name="archivo" id="archivo" class="form-control" accept=".pdf,.doc,.docx,.png,.jpg,.jpeg">
+          </div>
+          <button class="btn btn-primary" type="submit">Enviar</button>
+        </form>
+      </div>
+
+      <div class="col-md-6 mt-4 mt-md-0">
+      <p><strong>Dirección:</strong> Cr 7 #4-93, Riohacha, La Guajira, Corregimiento de Matitas</p>
+      <p><strong>Teléfono:</strong> <a href="tel:+573147353406">3147353406</a> - <a href="tel:+573126212846">3126212846</a></p>
+      <p><strong>Email:</strong> <a href="mailto:ieeugeniaherreradematitas@gmail.com">ieeugeniaherreradematitas@gmail.com</a></p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d978.2328101542665!2d-73.00825807158662!3d11.266464814565193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8b6b91ac6b62d1%3A0x218258167d3b3884!2sInstitucion%20Educativa%20Eugenia%20Gerrera%20De%20Matita!5e0!3m2!1ses!2sus!4v1753887286389!5m2!1ses!2sus" width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+    <a href="index.html" class="btn btn-primary mt-3">Volver al sitio principal</a>
+  </div>
+</body>
+</html>
