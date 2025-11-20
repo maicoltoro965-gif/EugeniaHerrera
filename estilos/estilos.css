@@ -44,3 +44,18 @@ body{
     box-shadow: none;
 }
 
+  .logo-btn {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    border-radius: 15px;
+    padding: 10px;
+    background: #ffffff;
+    border: 2px solid #ddd;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .logo-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
